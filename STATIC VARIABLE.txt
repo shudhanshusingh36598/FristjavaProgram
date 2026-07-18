@@ -1,0 +1,26 @@
+                      STATIC VARIABLE
+
+If the value of a variable is not varied from object to object then it is not recommended to declare variable as instance variable.
+ 
+We have to declare such types of variable set class level by using static modifier.
+
+In the case of instance variable every object separated copy will be created but case of static variable a single copy created at class level and shared by every object of the class.
+
+Static variable should be declared with in class Directly but out side of any method block or constructor.
+
+Example-
+
+class student {
+}
+String name;
+int Roll NO;
+Static String college name;
+public void main(String[]args);
+{
+}
+
+Scope of static variable-
+
+Static variable will be created at the time of class loading and destroy at the unloading ,Hence scope of static variable exactly same as scope of .classfile.
+
+static variable will be store in method area.
